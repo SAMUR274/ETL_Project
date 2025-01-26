@@ -3,6 +3,11 @@
 [![Airflow](https://img.shields.io/badge/Airflow-2.x-green)](https://airflow.apache.org/)
 [![Docker](https://img.shields.io/badge/Docker-Ready-blue)](https://www.docker.com/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Status](https://img.shields.io/badge/Status-Academic-orange)](https://github.com/yourusername/project)
+
+## 🎓 Academic Context
+
+Final year Computer Science project focusing on distributed ETL systems and data engineering principles. Developed as part of Advanced Data Engineering coursework to demonstrate practical implementation of enterprise-grade data pipelines.
 
 ## 🚀 Overview
 
@@ -46,6 +51,14 @@ credentials: admin/admin
 postgresql://localhost:5432/postgres
 ```
 
+## 🎯 Learning Outcomes
+
+- Distributed system design
+- ETL pipeline orchestration
+- Container management
+- Real-time data processing
+- Production deployment workflows
+
 ## 📚 Documentation
 
 For deployment details, visit [Astronomer Docs](https://www.astronomer.io/docs/astro/deploy-code/)
@@ -55,4 +68,4 @@ For deployment details, visit [Astronomer Docs](https://www.astronomer.io/docs/a
 Need help? Reach out to our support team for assistance.
 
 ---
-Built with ❤️ using Astronomer
+Built with ❤️ using Astronomer | Academic Project 2024
