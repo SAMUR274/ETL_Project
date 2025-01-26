@@ -1,47 +1,58 @@
-```markdown
-# ETL Data Pipeline Project - Advanced CS Implementation
+# Advanced ETL Pipeline with Apache Airflow
 
-## Overview
-Academic project exploring ETL (Extract, Transform, Load) pipelines using Apache Airflow and containerization. Built to demonstrate production-grade data engineering principles.
+[![Airflow](https://img.shields.io/badge/Airflow-2.x-green)](https://airflow.apache.org/)
+[![Docker](https://img.shields.io/badge/Docker-Ready-blue)](https://www.docker.com/)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Project Structure
+## 🚀 Overview
+
+Advanced ETL implementation showcasing distributed data processing using Apache Airflow. Features dynamic task mapping, containerization, and real-time API integration.
+
+## 🏗️ Project Structure
+
 ```
-project/
-├── dags/                   # DAG Python files
-│   └── example_astronauts  # Space station crew ETL pipeline  
-├── Dockerfile             # Astro Runtime image config
-├── include/              # Additional resources
-├── packages.txt          # OS dependencies
-├── requirements.txt      # Python dependencies  
-├── plugins/             # Custom Airflow plugins
-└── airflow_settings.yaml # Local environment config
+.
+├── dags/
+│   └── example_astronauts/    # Space station crew ETL
+├── Dockerfile                 # Runtime config
+├── include/                   # Resources
+├── packages.txt              # OS dependencies
+├── requirements.txt          # Python packages
+├── plugins/                  # Airflow plugins
+└── airflow_settings.yaml     # Environment config
 ```
 
-## Core Components
-- PostgreSQL: Metadata Database (5432)
-- Airflow Webserver: UI/API Interface (8080)
-- Airflow Scheduler: Task Orchestration
-- Airflow Triggerer: Async Task Execution
+## 🔧 Core Components
 
-## Local Development
+- 🗄️ **PostgreSQL** (5432): Metadata storage
+- 🌐 **Airflow UI** (8080): Web interface
+- ⚙️ **Scheduler**: Task orchestration
+- 🔄 **Triggerer**: Async execution
+
+## 🚦 Quick Start
+
 ```bash
-# Start services
+# Launch services
 astro dev start
 
-# Verify containers
+# Verify deployment
 docker ps
 
-# Access Airflow UI
-URL: http://localhost:8080
-Login: admin/admin
+# Access UI
+open http://localhost:8080
+credentials: admin/admin
 
-# Access PostgreSQL
-localhost:5432/postgres
+# Database
+postgresql://localhost:5432/postgres
 ```
 
-## Deployment
-For production deployment instructions, see [Astronomer Docs](https://www.astronomer.io/docs/astro/deploy-code/)
+## 📚 Documentation
 
-## Support
-For issues or feature requests, contact Astronomer support team.
-```
+For deployment details, visit [Astronomer Docs](https://www.astronomer.io/docs/astro/deploy-code/)
+
+## 🤝 Support
+
+Need help? Reach out to our support team for assistance.
+
+---
+Built with ❤️ using Astronomer
